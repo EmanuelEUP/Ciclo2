@@ -1,0 +1,83 @@
+/*SECCIONES*/
+.seccion00 {
+  background: #f46f02;
+  background: -moz-linear-gradient(top, #f46f02 0%, #e06602 44%, #c65900 100%);
+  background: -webkit-linear-gradient(top, #f46f02 0%, #e06602 44%, #c65900 100%);
+  background: linear-gradient(to bottom, #f46f02 0%, #e06602 44%, #c65900 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f46f02', endColorstr='#c65900',GradientType=0 ); }
+
+.seccion01 {
+  background-image: url("./../../img/sec01.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  animation: anim01 10s infinite linear alternate; }
+
+.seccion02 {
+  background: #eeeeee;
+  background: -moz-linear-gradient(top, #eeeeee 0%, #eeeeee 100%);
+  background: -webkit-linear-gradient(top, #eeeeee 0%, #eeeeee 100%);
+  background: linear-gradient(to bottom, #eeeeee 0%, #eeeeee 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#eeeeee',GradientType=0 ); }
+
+.seccion03 {
+  background-image: url("./../../img/1.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  animation: anim01 10s infinite linear alternate; }
+
+.seccion04 {
+  background-image: url("./../../img/2.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  animation: anim01 10s infinite linear alternate; }
+
+@keyframes anim01 {
+  from {
+    background-position: bottom left; }
+  to {
+    background-position: top right; } }
+/* BACKGROUND COLORS*/
+.bgtransparent {
+  background-color: transparent;
+  transition: all ease  .4s; }
+
+.bgcolor00 {
+  background: #1f1672;
+  background: -moz-linear-gradient(top, #1f1672 0%, #1f1672 100%);
+  background: -webkit-linear-gradient(top, #1f1672 0%, #1f1672 100%);
+  background: linear-gradient(to bottom, #1f1672 0%, #1f1672 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f1672', endColorstr='#1f1672',GradientType=0 ); }
+
+.bgcolor01 {
+  background: #04070e;
+  background: -moz-linear-gradient(top, #04070e 0%, #04070e 100%);
+  background: -webkit-linear-gradient(top, #04070e 0%, #04070e 100%);
+  background: linear-gradient(to bottom, #04070e 0%, #04070e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04070e', endColorstr='#04070e',GradientType=0 ); }
+
+.bgcolor02 {
+  background-color: rgba(0, 0, 0, 0.6);
+  transition: all ease  .4s; }
+
+/* FONT FACES */
+@font-face {
+  font-family: "Trade Gothic LT Bold";
+  src: url("./../../font/cb7d0b0968943ceca839712e38df14c1.eot");
+  /* IE9*/
+  src: url("./../../font/cb7d0b0968943ceca839712e38df14c1.eot?#iefix") format("embedded-opentype"), url("./../../font/cb7d0b0968943ceca839712e38df14c1.woff2") format("woff2"), url("./../../font/cb7d0b0968943ceca839712e38df14c1.woff") format("woff"), url("./../../font/cb7d0b0968943ceca839712e38df14c1.ttf") format("truetype"), url("./../../font/cb7d0b0968943ceca839712e38df14c1.svg#Trade Gothic LT Bold") format("svg");
+  /* iOS 4.1- */ }
+/* TIPOGRAFIA*/
+.font01 {
+  font-family: "Trade Gothic LT Bold";
+  font-style: normal; }
+
+/*# sourceMappingURL=ciclo2.css.map */

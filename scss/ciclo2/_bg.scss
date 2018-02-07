@@ -1,0 +1,39 @@
+
+/* BACKGROUND COLORS*/
+
+.bgtransparent{
+
+    background-color: transparent;
+    transition: all ease  .4s;
+       
+       }
+
+.bgcolor00{
+
+    background: rgb(31,22,114);
+    background: -moz-linear-gradient(top, rgba(31,22,114,1) 0%, rgba(31,22,114,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(31,22,114,1) 0%,rgba(31,22,114,1) 100%);
+    background: linear-gradient(to bottom, rgba(31,22,114,1) 0%,rgba(31,22,114,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f1672', endColorstr='#1f1672',GradientType=0 );
+
+
+}
+
+
+.bgcolor01{
+
+background: rgb(4,7,14);
+background: -moz-linear-gradient(top, rgba(4,7,14,1) 0%, rgba(4,7,14,1) 100%);
+background: -webkit-linear-gradient(top, rgba(4,7,14,1) 0%,rgba(4,7,14,1) 100%);
+background: linear-gradient(to bottom, rgba(4,7,14,1) 0%,rgba(4,7,14,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#04070e', endColorstr='#04070e',GradientType=0 );
+
+
+}
+
+.bgcolor02{
+
+ background-color: rgba($color: #000000, $alpha: 0.6);
+ transition: all ease  .4s;
+    
+    }

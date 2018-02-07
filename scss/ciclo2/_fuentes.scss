@@ -1,0 +1,20 @@
+
+  /* FONT FACES */  
+
+@font-face {font-family: "Trade Gothic LT Bold";
+    src: url("./../../font/cb7d0b0968943ceca839712e38df14c1.eot"); /* IE9*/
+    src: url("./../../font/cb7d0b0968943ceca839712e38df14c1.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("./../../font/cb7d0b0968943ceca839712e38df14c1.woff2") format("woff2"), /* chrome、firefox */
+    url("./../../font/cb7d0b0968943ceca839712e38df14c1.woff") format("woff"), /* chrome、firefox */
+    url("./../../font/cb7d0b0968943ceca839712e38df14c1.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url("./../../font/cb7d0b0968943ceca839712e38df14c1.svg#Trade Gothic LT Bold") format("svg"); /* iOS 4.1- */
+  }
+
+  /* TIPOGRAFIA*/  
+
+  .font01{
+
+font-family: "Trade Gothic LT Bold";
+font-style: normal;
+
+  }
